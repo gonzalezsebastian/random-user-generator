@@ -1,0 +1,50 @@
+.App-header {
+  background-color: #F8F8F8;
+  background-size: 92px;
+  text-align: center;
+  border-bottom: #E6E6E6;
+  border-bottom-style: solid;
+  color: black;
+}
+
+.Profile-pic {
+  border-radius: 50%;
+  height: 250px;
+  margin: auto;
+	border: solid white 4px;
+  outline: solid rgb(180, 180, 180) 2px;
+	margin: 50px auto -50px;
+}
+
+.App-body {
+  text-align: center;
+}
+  
+.App-body p{
+  font-size: 20px;
+  margin: 80px 0px 0px 0px;
+}
+
+.App-buttons {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.App-button{
+  background-color: transparent;
+  border-radius: 5px;
+  border: transparent;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+}
+
+.App-button img{
+  filter: grayscale(100%);
+}
+
+.App-button img:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
